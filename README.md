@@ -11,8 +11,7 @@ List of Experiments:
     <li>
         <ol type="a">
             <li>Install Flutter and Dart SDK</li>
-            <li>Write a simple Dart program to understand the language basics</li>
-            <a herf = "/DartIntro.md">Program</a>
+            <li>Write a simple Dart program to understand the language basics - <a href = "/DartIntro.md">Program</a></li>
         </ol>
     </li>
     <li>
