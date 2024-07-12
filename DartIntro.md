@@ -133,6 +133,25 @@ class Person {
     - **Properties**: `name`, `age`, `height`, and `isAdult`.
     - **Constructor**: Initializes the properties and sets `isAdult` based on the age.
     - **Method**: `introduce`: Prints the person's details.
+## Output
+```
+/> dart run
+Name: Srinivas
+Age: 20
+Height: 5.9
+Srinivas is an adult.
+Welcome to SDC, Srinivas!
+Loop iteration 1
+Loop iteration 2
+Loop iteration 3
+Hello, Bhanu!
+Hello, Amar!
+Hello, Amulya!
+Hello, Kiran!
+Hello, Sandeep!
+My name is Srinivas, I am 20 years old and my height is 5.9 feet.
+An error occurred: Unsupported operation: Infinity
+```
 
 This program provides a basic introduction to Dart's syntax and some fundamental programming concepts. You can run this code in any Dart environment, such as the DartPad online editor (https://dartpad.dev/).
 
