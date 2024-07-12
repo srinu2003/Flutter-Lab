@@ -10,7 +10,7 @@ List of Experiments:
 <ol>
     <li>
         <ol type="a">
-            <li>Install Flutter and Dart SDK</li>
+            <li>Install Flutter and Dart SDK.</li>
             <li>Write a simple Dart program to understand the language basics - <a href = "/DartIntro.md">Program</a></li>
         </ol>
     </li>
@@ -22,7 +22,7 @@ List of Experiments:
     </li>
     <li>
         <ol type="a">
-            <li></li>
+            <li>Design a responsive UI that adapts to different screen sizes - <a href = "/exp_3_a/README.md">Program</a></li>
             <li></li>
         </ol>
     </li>
@@ -73,21 +73,21 @@ List of Experiments:
 ---
 
 5. Design a responsive UI that adapts to different screen sizes
-6. Implement media queries and breakpoints for responsiveness
-7. Set up navigation between different screens using Navigator
-8. Implement navigation with named routes
-9. Learn about stateful and stateless widgets
-10. Implement state management using setState and Provider
-11. Create custom widgets for specific UI elements
-12. Apply styling using themes and custom styles
-13. Design a form with various input fields
-14. Implement form validation and error handling
-15. Add animations to UI elements using Flutter's animation framework
-16. Experiment with different types of animations (fade, slide, etc.)
-17. Fetch data from a REST API
-18. Display the fetched data in a meaningful way in the UI
-19. Write unit tests for UI components
-20. Use Flutter's debugging tools to identify and fix issues
+6. Implement media queries and breakpoints for responsiveness.
+7. Set up navigation between different screens using Navigator.
+8. Implement navigation with named routes.
+9. Learn about stateful and stateless widgets.
+10. Implement state management using setState and Provider.
+11. Create custom widgets for specific UI elements.
+12. Apply styling using themes and custom styles.
+13. Design a form with various input fields.
+14. Implement form validation and error handling.
+15. Add animations to UI elements using Flutter's animation framework.
+16. Experiment with different types of animations. (fade, slide, etc.)
+17. Fetch data from a REST API.
+18. Display the fetched data in a meaningful way in the UI.
+19. Write unit tests for UI components.
+20. Use Flutter's debugging tools to identify and fix issues.
 
 TEXT BOOK:
 1. Marco L. Napoli. Beginning Flutter: A Hands-on Guide to App Development.
