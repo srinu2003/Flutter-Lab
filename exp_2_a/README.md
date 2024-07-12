@@ -69,14 +69,22 @@ In this lab experiment, we will explore various Flutter widgets such as `Text`, 
     }
     }
     ```
-5. Get the image `flutter_logo.png` from [wikipedia](https://en.wikipedia.org/wiki/File:Google-flutter-logo.png) and save it in the `assets/images/` directory of your Flutter project or replace the image path `'assets/images/flutter_logo.png'` with the actual path to your image file.
+5. Get the image `flutter_logo.png` from [wikipedia](https://en.wikipedia.org/wiki/File:Google-flutter-logo.png) and save it in the `assets/images/` directory of your Flutter project or replace the image path `'assets/images/flutter_logo.png'` with the actual path to your image file and then save the file.
 
-6. Save the file.
+6. Open the `pubspec.yaml` file in your Flutter project and add the following lines after `flutter:` to include the image asset in your project:
+
+    ```yaml
+    assets:
+        - assets/images/flutter_logo.png
+    ```
+    Save the file.
 
 7. Run your Flutter project using the following command:
     ```
     flutter run
     ```
+8.  - Enter `r` to hot reload the app and see the changes you made to the code.
+    - Enter `q` to quit the app.
 
 ## Expected Output
 ![exp_2_a_output](image.png)
