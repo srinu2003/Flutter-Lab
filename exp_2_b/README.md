@@ -99,7 +99,7 @@ In this lab experiment, we will explore three important layout widgets in Flutte
 
 
 ## Expected Output
-![exp_2_a_output](image.png)
+![exp_2_b_output](image.png)
 
 
 ### 1. Row Widget:
