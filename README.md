@@ -16,7 +16,7 @@ List of Experiments:
     </li>
     <li>
         <ol type="a">
-            <li>Explore various Flutter widgets (Text, Image, Container, etc.)</li>
+            <li>Explore various Flutter widgets (Text, Image, Container, etc.) - <a href = "/exp_2_a/README.md">Program</a></li>
             <li>Implement different layout structures using Row, Column, and Stack widgets</li>
         </ol>
     </li>
