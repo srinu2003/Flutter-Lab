@@ -8,7 +8,7 @@ B.Tech. III Year I Sem.
 List of Experiments:
 
 1.  1. Install Flutter and Dart SDK.
-    2. [`Program`](/exp_1_b/DartIntro.md) - Write a simple Dart program to understand the language basics.
+    2. [`Theory + Proogram`](/exp_1_b/DartIntro.md) - Write a simple Dart program to understand the language basics.
 
 2.  1. [`Program`](/exp_2_a/README.md) - Explore various Flutter widgets (Text, Image, Container, etc.).
     2. [`Program`](/exp_2_b/README.md) - Implement different layout structures using Row, Column, and Stack widgets.
@@ -19,7 +19,7 @@ List of Experiments:
 4.  1. [`Program`](/exp_4_a/README.md) - Set up navigation between different screens using Navigator.
     2. [`Program`](/exp_4_b/README.md) - Implement navigation with named routes.
 
-5.  1. [`Program`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
+5.  1. [`Theory`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
     2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
 
 6.  1. [`Program`](/exp_6_a/README.md) - Create custom widgets for specific UI elements.
@@ -47,7 +47,7 @@ The Student will be able to:
 * Fetch data and write code fur unit Test for Ut components and also animation
 
 > [!NOTE] 
-> Do not take the above Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
+> Do not take the below Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
 
 **TEXT BOOK:**
 1. Marco L. Napoli. Beginning Flutter: A Hands-on Guide to App Development.
