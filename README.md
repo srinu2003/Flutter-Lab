@@ -72,7 +72,6 @@ List of Experiments:
 
 ---
 
-5. Design a responsive UI that adapts to different screen sizes
 6. Implement media queries and breakpoints for responsiveness.
 7. Set up navigation between different screens using Navigator.
 8. Implement navigation with named routes.

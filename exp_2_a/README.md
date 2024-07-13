@@ -1,5 +1,8 @@
 # exp_2_a.  Exploring Flutter Widgets
 
+## Aim
+To explore various Flutter widgets such as `Text`, `Image`, and `Container`.
+
 ## Objective
 In this lab experiment, we will explore various Flutter widgets such as `Text`, `Image`, and `Container`. Follow the steps below to set up a basic Flutter application and customize it according to your needs.
 
