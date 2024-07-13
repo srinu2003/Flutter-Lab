@@ -107,8 +107,7 @@ The objective of this experiment is to create a Flutter project that demonstrate
 7. To hot reload the app and see the changes you made to the code, enter `r`. To quit the app, enter `q`.
 
 ## Expected Output
-
-![exp_3_a_output](/exp_3_a/exp_3_a_output.mp4)
+<video controls src="exp_3_a_output.mp4" title="exp_3_a_output"></video>
 
 ## Conclusion
 
