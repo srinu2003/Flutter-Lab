@@ -1,4 +1,4 @@
-# exp_3_a.  Responsive UI
+# Experiment 3 - Part A:  **Responsive UI**
 ## Aim
 
 To design a responsive UI that adapts to different screen sizes.
@@ -14,13 +14,13 @@ The objective of this experiment is to create a Flutter project that demonstrate
 ## Procedure
 
 1. Create a new Flutter project by running the following command in your terminal:
-    ```
+    ```cmd
     flutter create my_flutter_app
     ```
     This command will create a Flutter project directory called `my_flutter_app` that contains a simple demo app using [Material Components](https://m3.material.io/components).
 
 2. Change to the Flutter project directory:
-    ```
+    ```cdm
     cd my_flutter_app
     ```
 
@@ -100,7 +100,7 @@ The objective of this experiment is to create a Flutter project that demonstrate
 5. Save the file.
 
 6. Run your Flutter project using the following command:
-    ```
+    ```cdm
     flutter run
     ```
 

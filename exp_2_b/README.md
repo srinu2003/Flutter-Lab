@@ -1,4 +1,4 @@
-# exp_2_b.  Flutter Layout Widgets
+# Experiment 2 - Part B: **Flutter Layout Widgets**
 
 ## Aim
 To implement different layout structures using Row, Column, and Stack widgets in Flutter.
@@ -13,13 +13,13 @@ In this lab experiment, we will explore three important layout widgets in Flutte
 ## Procedure
 
 1. Create a new Flutter project by running the following command in your terminal:
-    ```
+    ```cmd
     flutter create my_flutter_app
     ```
     The command creates a Flutter project directory called `my_flutter_app` that contains a simple demo app that uses [Material Components](https://m3.material.io/components).
 
 2. Change to the Flutter project directory.
-    ```
+    ```cmd
     cd my_flutter_app
     ```
 3. Open the `lib/main.dart` file in your Flutter project.
@@ -91,7 +91,7 @@ In this lab experiment, we will explore three important layout widgets in Flutte
 5. Save the file.
 
 6. Run your Flutter project using the following command:
-    ```
+    ```cmd
     flutter run
     ```
 7.  - Enter `r` to hot reload the app and see the changes you made to the code.

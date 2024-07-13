@@ -1,4 +1,4 @@
-# exp_2_b.  EXPERIMENT NAME
+# Experiment 2 - Part A:  **Experiment Name**
 
 ## Aim
 
@@ -12,13 +12,13 @@
 ## Procedure
 
 1. Create a new Flutter project by running the following command in your terminal:
-    ```
+    ```cmd
     flutter create my_flutter_app
     ```
     The command creates a Flutter project directory called `my_flutter_app` that contains a simple demo app that uses [Material Components](https://m3.material.io/components).
 
 2. Change to the Flutter project directory.
-    ```
+    ```cmd
     cd my_flutter_app
     ```
 3. Open the `lib/main.dart` file in your Flutter project.
@@ -29,7 +29,7 @@
 5. Save the file.
 
 6. Run your Flutter project using the following command:
-    ```
+    ```cmd
     flutter run
     ```
 7.  - Enter `r` to hot reload the app and see the changes you made to the code.

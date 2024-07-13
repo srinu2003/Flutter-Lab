@@ -1,4 +1,4 @@
-# exp_2_a.  Exploring Flutter Widgets
+# Experiment 2 - Part A: **Exploring Flutter Widgets**
 
 ## Aim
 To explore various Flutter widgets such as `Text`, `Image`, and `Container`.
@@ -13,13 +13,13 @@ In this lab experiment, we will explore various Flutter widgets such as `Text`, 
 ## Procedure
 
 1. Create a new Flutter project by running the following command in your terminal:
-    ```
+    ```cmd
     flutter create my_flutter_app
     ```
     The command creates a Flutter project directory called `my_flutter_app` that contains a simple demo app that uses [Material Components](https://m3.material.io/components).
 
 2. Change to the Flutter project directory.
-    ```
+    ```cmd
     cd my_flutter_app
     ```
 3. Open the `lib/main.dart` file in your Flutter project.
@@ -77,19 +77,21 @@ In this lab experiment, we will explore various Flutter widgets such as `Text`, 
 6. Open the `pubspec.yaml` file in your Flutter project and add the following lines after `flutter:` to include the image asset in your project:
 
     ```yaml
-    assets:
-        - assets/images/flutter_logo.png
+    flutter:
+      uses-material-design: true
+      assets: <-- Add this line
+        - assets/images/flutter_logo.png <-- Add this line
     ```
     Save the file.
 
 7. Run your Flutter project using the following command:
-    ```
+    ```cmd
     flutter run
     ```
 8.  - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
 
-## Expected Output
+## Output
 ![exp_2_a_output](image.png)
 
 ## Conclusion
