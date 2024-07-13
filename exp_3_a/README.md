@@ -109,6 +109,9 @@ The objective of this experiment is to create a Flutter project that demonstrate
 ## Expected Output
 <video controls src="exp_3_a_output.mp4" title="exp_3_a_output"></video>
 
+https://github.com/user-attachments/assets/480131a3-2863-49f2-971e-179dbe8835cf
+
+
 ## Conclusion
 
 In this experiment, we successfully designed a responsive UI that adapts to different screen sizes using Flutter. The UI layout and appearance adjust dynamically based on the screen size of the device, providing an optimal user experience.
