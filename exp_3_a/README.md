@@ -106,10 +106,19 @@ The objective of this experiment is to create a Flutter project that demonstrate
 
 7. To hot reload the app and see the changes you made to the code, enter `r`. To quit the app, enter `q`.
 
-## Expected Output
+## Output
 <video controls src="exp_3_a_output.mp4" title="exp_3_a_output"></video>
 
 https://github.com/user-attachments/assets/480131a3-2863-49f2-971e-179dbe8835cf
+
+
+### Extra Practice
+
+To further enhance your understanding of responsive UI design in Flutter, you can try to implement the following additional features:
+
+1. Divide the screen into multiple sections based on the screen size.
+
+<video controls src="Recording 2024-07-13 203728.mp4" title="exp_3_a_practice"></video>
 
 
 ## Conclusion
