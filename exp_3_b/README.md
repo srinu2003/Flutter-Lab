@@ -155,6 +155,10 @@ The objective of this experiment is to understand how to use media queries and b
 <video controls src="exp_3_b_output.mp4" title="exp_3_b_output"></video>
 
 
+https://github.com/user-attachments/assets/f7dd73cd-c5cf-4571-b00d-86541c41dbaf
+
+
+
 ## Conclusion
 
 In this experiment, we learned how to implement media queries and breakpoints in a Flutter project to achieve responsiveness. By using different screen widths, we were able to create a layout that adapts to different devices. This allows our app to provide a consistent user experience across various screen sizes.
