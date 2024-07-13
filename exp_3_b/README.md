@@ -1,9 +1,11 @@
-# Experiment 2 - Part A:  **Experiment Name**
-
+# Experiment 3 - Part B:  **Experiment Name**
 ## Aim
+
+The aim of this experiment is to implement media queries and breakpoints in a Flutter project to achieve responsiveness.
 
 ## Objective
 
+The objective of this experiment is to understand how to use media queries and breakpoints to create a responsive layout in Flutter.
 
 ## Prerequisites
 - Flutter SDK installed on your machine
@@ -32,6 +34,7 @@
     ```cmd
     flutter run
     ```
+
 7. During the app execution, you can use the following commands:
     - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.

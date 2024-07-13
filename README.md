@@ -23,7 +23,7 @@ List of Experiments:
     <li>
         <ol type="a">
             <li>Design a responsive UI that adapts to different screen sizes - <a href = "/exp_3_a/README.md">Program</a></li>
-            <li></li>
+            <li>Implement media queries and breakpoints for responsiveness - <a href = "/exp_3_b/README.md">Program</a></li>
         </ol>
     </li>
     <li>
