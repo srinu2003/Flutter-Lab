@@ -1,4 +1,4 @@
-2250585: Skill Development Course (UI DESIGN-FLUTTER)
+# `2250585`: Skill Development Course (UI DESIGN-FLUTTER)
 B.Tech. III Year I Sem.
 
 | L | T | P | C |
@@ -7,88 +7,53 @@ B.Tech. III Year I Sem.
 
 List of Experiments:
 
-<ol>
-    <li>
-        <ol type="a">
-            <li>Install Flutter and Dart SDK.</li>
-            <li>Write a simple Dart program to understand the language basics - <a href = "/exp_1_b/DartIntro.md\">Program</a></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li>Explore various Flutter widgets (Text, Image, Container, etc.) - <a href = "/exp_2_a/README.md">Program</a></li>
-            <li>Implement different layout structures using Row, Column, and Stack widgets - <a href = "/exp_2_b/README.md">Program</a></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li>Design a responsive UI that adapts to different screen sizes - <a href = "/exp_3_a/README.md">Program</a></li>
-            <li>Implement media queries and breakpoints for responsiveness - <a href = "/exp_3_b/README.md">Program</a></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a">
-            <li></li>
-            <li></li>
-        </ol>
-    </li>
-</ol>
+1.  1. Install Flutter and Dart SDK.
+    2. [`Program`](/exp_1_b/DartIntro.md) - Write a simple Dart program to understand the language basics.
 
----
+2.  1. [`Program`](/exp_2_a/README.md) - Explore various Flutter widgets (Text, Image, Container, etc.).
+    2. [`Program`](/exp_2_b/README.md) - Implement different layout structures using Row, Column, and Stack widgets.
+    
+3.  1. [`Program`](/exp_3_a/README.md) - Design a responsive UI that adapts to different screen sizes.
+    2. [`Program`](/exp_3_b/README.md) - Implement media queries and breakpoints for responsiveness.
 
-6. Implement media queries and breakpoints for responsiveness.
-7. Set up navigation between different screens using Navigator.
-8. Implement navigation with named routes.
-9. Learn about stateful and stateless widgets.
-10. Implement state management using setState and Provider.
-11. Create custom widgets for specific UI elements.
-12. Apply styling using themes and custom styles.
-13. Design a form with various input fields.
-14. Implement form validation and error handling.
-15. Add animations to UI elements using Flutter's animation framework.
-16. Experiment with different types of animations. (fade, slide, etc.)
-17. Fetch data from a REST API.
-18. Display the fetched data in a meaningful way in the UI.
-19. Write unit tests for UI components.
-20. Use Flutter's debugging tools to identify and fix issues.
+4.  1. [`Program`](/exp_4_a/README.md) - Set up navigation between different screens using Navigator.
+    2. [`Program`](/exp_4_b/README.md) - Implement navigation with named routes.
 
-TEXT BOOK:
+5.  1. [`Program`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
+    2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
+
+6.  1. [`Program`](/exp_6_a/README.md) - Create custom widgets for specific UI elements.
+    2. [`Program`](/exp_6_b/README.md) - Apply styling using themes and custom styles.
+
+7.  1. [`Program`](/exp_7_a/README.md) - Design a form with various input fields.
+    2. [`Program`](/exp_7_b/README.md) - Implement form validation and error handling.
+
+8.  1. [`Program`](/exp_8_a/README.md) - Add animations to UI elements using Flutter's animation framework.
+    2. [`Program`](/exp_8_b/README.md) - Experiment with different types of animations. (fade, slide, etc.)
+
+9.  1. [`Program`](/exp_9_a/README.md) - Fetch data from a REST API.
+    2. [`Program`](/exp_9_b/README.md) - Display the fetched data in a meaningful way in the UI.
+
+10. 1. [`Program`](/exp_10_a/README.md) - Write unit tests for UI components.
+    2. [`Program`](/exp_10_b/README.md) - Use Flutter's debugging tools to identify and fix issues.
+
+## Course Outcomes
+The Student will be able to:
+
+* Implements Flutter Widgets und Layouts
+* Create Responsive UI Desigs and with Navigation in Flutter
+* Create custom widgets for specifie Ul elements and alsis Apply styling using themes and custom styles
+* Design a form with various input fields, along with validation and erros hanalling
+* Fetch data and write code fur unit Test for Ut components and also animation
+
+> [!NOTE] 
+> Do not take the above Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
+
+**TEXT BOOK:**
 1. Marco L. Napoli. Beginning Flutter: A Hands-on Guide to App Development.
 
-Note: Do not take the above Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
+> [!TIP]
+> You can refer to the following resources for additional learning:
+> - Flutter CODELABS from [Google](https://flutter.dev/docs/codelabs)
+> - [Flutter Documentation](https://docs.flutter.dev/get-started/learn-more)
+> - [Dart Documentation](https://dart.dev/guides)

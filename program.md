@@ -32,12 +32,14 @@
     ```cmd
     flutter run
     ```
+    Select the appropriate device to run the app.
+
 7. During the app execution, you can use the following commands:
     - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
 
 
-## Expected Output
+## Output
 ![exp_2_b_output]()
 
 

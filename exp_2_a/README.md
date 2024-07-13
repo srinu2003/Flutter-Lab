@@ -88,6 +88,8 @@ In this lab experiment, we will explore various Flutter widgets such as `Text`, 
     ```cmd
     flutter run
     ```
+    Select the appropriate device to run the app.
+
 8.  - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
 

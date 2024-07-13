@@ -94,6 +94,8 @@ In this lab experiment, we will explore three important layout widgets in Flutte
     ```cmd
     flutter run
     ```
+    Select the appropriate device to run the app.
+
 7.  - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
 

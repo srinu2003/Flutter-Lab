@@ -100,9 +100,10 @@ The objective of this experiment is to create a Flutter project that demonstrate
 5. Save the file.
 
 6. Run your Flutter project using the following command:
-    ```cdm
+    ```cmd
     flutter run
     ```
+    Select the appropriate device to run the app.
 
 7. To hot reload the app and see the changes you made to the code, enter `r`. To quit the app, enter `q`.
 
