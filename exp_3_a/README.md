@@ -121,6 +121,10 @@ To further enhance your understanding of responsive UI design in Flutter, you ca
 <video controls src="Recording 2024-07-13 203728.mp4" title="exp_3_a_practice"></video>
 
 
+https://github.com/user-attachments/assets/cfa0fa74-b4a9-4318-90e4-7c64c873dd2a
+
+
+
 ## Conclusion
 
 In this experiment, we successfully designed a responsive UI that adapts to different screen sizes using Flutter. The UI layout and appearance adjust dynamically based on the screen size of the device, providing an optimal user experience.
