@@ -108,13 +108,12 @@ Understand deep linking in Flutter apps.
 
 ## Output
 
-<img height="800" alt="Home Page" src="https://github.com/user-attachments/assets/aec80f3b-f608-406b-a506-e28d3828d98f">
-<img height="800" alt="Second Screen" src="https://github.com/user-attachments/assets/0bd0735a-489d-405e-be1b-922529ab50a6">
-
 <video controls src="exp_4_b_output.mp4" title="exp_4_b_output"></video>
 
 
-https://github.com/user-attachments/assets/16fa7844-1f38-48f2-ae5c-269136ea0c59
+https://github.com/user-attachments/assets/9ae5fed4-6dd8-4eb9-8567-4b7f6df0e3d2
+
+
 
 
 ## Conclusion
