@@ -57,3 +57,6 @@ The Student will be able to:
 > - Flutter CODELABS from [Google](https://flutter.dev/docs/codelabs)
 > - [Flutter Documentation](https://docs.flutter.dev/get-started/learn-more)
 > - [Dart Documentation](https://dart.dev/guides)
+> - [Learn Flutter](https://flutter.dev/learn)
+> - [Material3 Design](https://material.io/design)
+> - [Material3 and Flutter](https://m3.material.io/develop/flutter)
