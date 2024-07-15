@@ -15,12 +15,10 @@ List of Experiments:
     
 3.  1. [`Program`](/exp_3_a/README.md) - Design a responsive UI that adapts to different screen sizes.
     2. [`Program`](/exp_3_b/README.md) - Implement media queries and breakpoints for responsiveness.
-
----
-
 4.  1. [`Program`](/exp_4_a/README.md) - Set up navigation between different screens using Navigator.
     2. [`Program`](/exp_4_b/README.md) - Implement navigation with named routes.
 
+---
 5.  1. [`Theory`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
     2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
 
@@ -52,7 +50,7 @@ The Student will be able to:
 > Do not take the below Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
 
 **TEXT BOOK:**
-1. Marco L. Napoli. Beginning Flutter: A Hands-on Guide to App Development.
+1. Marco L. Napoli. [Beginning Flutter: A Hands-on Guide to App Development.](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf)
 
 > [!TIP]
 > You can refer to the following resources for additional learning:
