@@ -99,7 +99,7 @@ To learn how to navigate between screens in a Flutter app using the Navigator cl
 
 
 ## Output
-
+<video controls src="exp_4_a_output.mp4" title="exp_4_a_output"></video>
 
 ## Conclusion
 

@@ -101,7 +101,9 @@ Understand deep linking in Flutter apps.
 
 
 ## Output
+![exp_4_b_output_1](exp_4_b_output_1.png)![exp_4_b_output_2](exp_4_b_output_2.png)
 
+<video controls src="exp_4_b_output.mp4" title="exp_4_b_output"></video>
 
 ## Conclusion
 
