@@ -98,11 +98,15 @@ Understand deep linking in Flutter apps.
 7. During the app execution, you can use the following commands:
     - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
-
+> [!TIP]
+> Observe the code differences between the previous experiment and this experiment. In this experiment, we used named routes to navigate between different screens in a Flutter app. Is is quite easy by remembering the code style tranfroming from the traditional way of navigating between screens in a Flutter app.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/d6fb504d-2951-4b01-9896-633265bd6854">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/1368d761-5ecd-4065-8bce-bf43222e7c84">
+  <img alt="Code transformation to routes methos" src="https://github.com/user-attachments/assets/1368d761-5ecd-4065-8bce-bf43222e7c84">
+</picture>
 
 ## Output
-<!-- ![exp_4_b_output_1](exp_4_b_output_1.png|width=450) -->
-<!-- ![exp_4_b_output_2](exp_4_b_output_2.png|width=450) -->
 
 <img height="800" alt="Home Page" src="https://github.com/user-attachments/assets/aec80f3b-f608-406b-a506-e28d3828d98f">
 <img height="800" alt="Second Screen" src="https://github.com/user-attachments/assets/0bd0735a-489d-405e-be1b-922529ab50a6">
