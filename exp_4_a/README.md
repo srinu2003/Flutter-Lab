@@ -99,8 +99,7 @@ To learn how to navigate between screens in a Flutter app using the Navigator cl
 
 
 ## Output
-<img height="800" alt="Home Page" src="https://github.com/user-attachments/assets/aec80f3b-f608-406b-a506-e28d3828d98f">
-<img height="800" alt="Second Screen" src="https://github.com/user-attachments/assets/0bd0735a-489d-405e-be1b-922529ab50a6">
+<img height="800" alt="Home Page" src="https://github.com/user-attachments/assets/aec80f3b-f608-406b-a506-e28d3828d98f"><img height="800" alt="Second Screen" src="https://github.com/user-attachments/assets/0bd0735a-489d-405e-be1b-922529ab50a6">
 
 <video controls src="exp_4_a_output.mp4" title="exp_4_a_output"></video>
 
