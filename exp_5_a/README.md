@@ -1,15 +1,15 @@
 # STATEFUL and STATELESS widgets in Flutter
 
-### Stateless Widgets
+## Stateless Widgets
 
 Stateless widgets are immutable, meaning their properties can't change once they're built. They are typically used for widgets that don't require any mutable state (i.e., they don't change over time or in response to user interactions). Examples of stateless widgets include `Text`, `Icon`, and `Container`.
 
-**Key Points:**
+### **Key Points:**
 - Immutable
 - Used for static content
 - Lightweight and simple to use
 
-**Example:**
+### **Example:**
 ```dart
 import 'package:flutter/material.dart';
 
@@ -28,7 +28,7 @@ class MyStatelessWidget extends StatelessWidget {
 void main() => runApp(MaterialApp(home: MyStatelessWidget()));
 ```
 
-### Stateful Widgets
+## Stateful Widgets
 
 Stateful widgets are dynamic and can change their state during their lifetime. They are used when the widget needs to update based on user interactions or other factors. Examples of stateful widgets include `Checkbox`, `Radio`, `Slider`, and `TextField`.
 
@@ -36,12 +36,12 @@ Stateful widgets consist of two classes:
 1. A `StatefulWidget` class that is immutable and can be used to create an instance of the widget.
 2. A `State` class that contains the mutable state for that widget.
 
-**Key Points:**
+### **Key Points:**
 - Mutable state
 - Used for dynamic content
 - More complex than stateless widgets
 
-**Example:**
+### **Example:**
 ```dart
 import 'package:flutter/material.dart';
 
@@ -84,11 +84,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 void main() => runApp(MaterialApp(home: MyStatefulWidget()));
 ```
 
-### Key Differences:
+## Key Differences:
 - **State Management:** Stateless widgets do not manage any state, while stateful widgets have an internal state that can change over time.
 - **Lifecycle:** Stateful widgets have a more complex lifecycle with additional methods such as `initState()`, `setState()`, and `dispose()`, whereas stateless widgets only have the `build()` method.
 
-### Use Cases:
+## Use Cases:
 - **Stateless Widgets:** Use these for UI elements that do not change, such as static text, icons, and layout containers.
 - **Stateful Widgets:** Use these for UI elements that need to change dynamically based on user input or other factors, such as forms, sliders, and interactive elements.
 
