@@ -50,7 +50,8 @@ The Student will be able to:
 > Do not take the below Text Book as a mandatory requirement. You can always refer to the official [Flutter](https://docs.flutter.dev/get-started/learn-more) and [Dart](https://dart.dev/) documentation for learning.
 
 **TEXT BOOK:**
-1. Marco L. Napoli. [Beginning Flutter: A Hands-on Guide to App Development.](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf)
+1. **Beginning Flutter: A Hands-On Guide to App Development** by Marco L. Napoli
+<!-- 1. Marco L. Napoli. [Beginning Flutter: A Hands-on Guide to App Development.](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf) -->
 
 > [!TIP]
 > You can refer to the following resources for additional learning:
