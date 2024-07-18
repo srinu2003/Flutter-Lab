@@ -61,3 +61,7 @@ The Student will be able to:
 > - [Learn Flutter](https://flutter.dev/learn)
 > - [Material3 Design](https://material.io/design)
 > - [Material3 and Flutter](https://m3.material.io/develop/flutter)
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. For more details, see the [LICENSE](./LICENSE) file.
