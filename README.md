@@ -8,7 +8,7 @@ B.Tech. III Year I Sem.
 List of Experiments:
 
 1.  1. Install Flutter and Dart SDK.
-    2. [`Theory + Proogram`](/exp_1_b/DartIntro.md) - Write a simple Dart program to understand the language basics.
+    2. [`Theory + Program`](/exp_1_b/DartIntro.md) - Write a simple Dart program to understand the language basics.
 
 2.  1. [`Program`](/exp_2_a/README.md) - Explore various Flutter widgets (Text, Image, Container, etc.).
     2. [`Program`](/exp_2_b/README.md) - Implement different layout structures using Row, Column, and Stack widgets.
