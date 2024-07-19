@@ -18,9 +18,9 @@ List of Experiments:
 4.  1. [`Program`](/exp_4_a/README.md) - Set up navigation between different screens using Navigator.
     2. [`Program`](/exp_4_b/README.md) - Implement navigation with named routes.
 
----
 5.  1. [`Theory`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
-    2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
+---
+2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
 
 6.  1. [`Program`](/exp_6_a/README.md) - Create custom widgets for specific UI elements.
     2. [`Program`](/exp_6_b/README.md) - Apply styling using themes and custom styles.

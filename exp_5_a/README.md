@@ -77,7 +77,7 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
-    return /* ... Widget tree and setState() if needed */;
+    return /* ... Widget tree and stateManagament if needed */;
   }
 }
 ```
