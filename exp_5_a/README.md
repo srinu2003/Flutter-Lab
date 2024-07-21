@@ -157,3 +157,6 @@ For more detailed information, you can refer to the
 "Beginning Flutter A Hands-on Guide to App Development" by Marco L Napoli
 , which provides in-depth examples and explanations.
 <!-- ["Beginning Flutter A Hands-on Guide to App Development" by Marco L Napoli](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf#page=36) -->
+
+## Further Reading:
+- [Flutter Stateful Widgets](https://developers.google.com/learn/pathways/intro-to-flutter)
