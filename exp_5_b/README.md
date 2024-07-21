@@ -144,6 +144,10 @@ To understand how to manage the state of a Flutter app using the `setState` meth
 ## Output
 ![exp_5_b_output](exp_5_b_output.png)
 
+https://github.com/user-attachments/assets/22038ae9-97eb-4040-a85b-50fcf2ecb187
+
+
+
 ## Conclusion
 
 In this experiment, we learned how to implement state management in a Flutter app using the `setState` method and the `Provider` package. We created a simple counter app that allows the user to increment the counter value by tapping a button. By using the `ChangeNotifierProvider` and `Consumer` widgets from the `Provider` package, we were able to update the UI whenever the counter value changed. This approach provides a scalable and efficient way to manage the state of a Flutter app.
