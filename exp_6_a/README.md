@@ -107,8 +107,8 @@ To understand how to create custom widgets for specific UI elements.
 
 
 ## Output
-![exp_6_a_output]()
-
+<video controls src="exp_6_a_output.mp4" title="UI"></video>
+<video controls src="exp_6_a_output_2.mp4" title="Console"></video>
 
 ## Conclusion
 In this experiment, you learned how to create custom widgets for specific UI elements in Flutter.
