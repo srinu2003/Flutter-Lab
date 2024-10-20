@@ -1,3 +1,6 @@
+![Flutter](https://img.shields.io/badge/Flutter-3.0-blue)
+![Dart](https://img.shields.io/badge/Dart-3.5-blue)
+
 # `2250585`: Skill Development Course (UI DESIGN-FLUTTER)
 B.Tech. III Year I Sem.
 
