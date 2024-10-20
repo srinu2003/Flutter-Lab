@@ -108,6 +108,14 @@ To understand how to create custom widgets for specific UI elements.
 
 ## Output
 <video controls src="exp_6_a_output.mp4" title="UI"></video>
+
+
+https://github.com/user-attachments/assets/59548fe9-cb73-4cc6-8957-110aa04913f9
+
+
+https://github.com/user-attachments/assets/9724670d-0452-414b-baa4-fae128639f84
+
+
 <video controls src="exp_6_a_output_2.mp4" title="Console"></video>
 
 ## Conclusion
