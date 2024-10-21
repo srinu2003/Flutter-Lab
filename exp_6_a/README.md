@@ -1,4 +1,4 @@
-# Experiment 2 - Part A:  **Custom widgets for specific UI**
+# Experiment 6 - Part A:  **Custom widgets for specific UI**
 
 ## Aim
 Create custom widgets for specific UI elements.

@@ -1,4 +1,4 @@
-# Experiment 2 - Part A:  **Themes and Custom Styles**
+# Experiment 6 - Part B:  **Themes and Custom Styles**
 
 ## Aim
 To understand how to apply themes and custom styles to a Flutter app.
