@@ -96,14 +96,14 @@ In this experiment, you will learn how to:
 > `Theme.of()` is a static method that returns the current theme of the app.
 > <details><summary>API reference</summary>
 > 
-> The data from the closest [Theme] instance that encloses the given
+> The data from the closest `Theme` instance that encloses the given
 > context.
 > 
-> If the given context is enclosed in a [Localizations] widget providing
-> [MaterialLocalizations], the returned data is localized according to the
-> nearest available [MaterialLocalizations].
+> If the given context is enclosed in a `Localizations` widget providing
+> `MaterialLocalizations`, the returned data is localized according to the
+> nearest available `MaterialLocalizations`.
 > 
-> Defaults to [ThemeData.fallback] if there is no [Theme] in the given
+> Defaults to `ThemeData.fallback` if there is no `Theme` in the given
 > build context.
 > 
 > Typical usage is as follows:
@@ -118,12 +118,12 @@ In this experiment, you will learn how to:
 > }
 > ```
 > 
-> When the [Theme] is actually created in the same `build` function
+> When the `Theme` is actually created in the same `build` function
 > (possibly indirectly, e.g. as part of a [MaterialApp]), the `context`
-> argument to the `build` function can't be used to find the [Theme] (since
+> argument to the `build` function can't be used to find the `Theme` (since
 > it's "above" the widget being returned). In such cases, the following
-> technique with a [Builder] can be used to provide a new scope with a
-> [BuildContext] that is "under" the [Theme]:
+> technique with a `Builder` can be used to provide a new scope with a
+> `BuildContext` that is "under" the `Theme`:
 > 
 > ```dart
 > @override
@@ -149,7 +149,15 @@ In this experiment, you will learn how to:
 
 ## Output
 <video controls src="exp_6_b_output.mp4" title="Windows App"></video>
+
+https://github.com/user-attachments/assets/24e4a30a-9c6d-4cde-b242-570780b4d37b
+
+
 <video controls src="exp_6_b_output_2.mp4" title="Android"></video>
+
+https://github.com/user-attachments/assets/1b321582-3e4b-49a7-a73c-def137a2ce5b
+
+
 
 
 ## Conclusion
