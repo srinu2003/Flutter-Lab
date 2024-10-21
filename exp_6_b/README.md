@@ -92,9 +92,9 @@ In this experiment, you will learn how to:
     - Enter `r` to hot reload the app and see the changes you made to the code.
     - Enter `q` to quit the app.
 
-> [!TIP]>
+> [!TIP]
 > `Theme.of()` is a static method that returns the current theme of the app.
-> <details><summary>API refarence</summary>
+> <details><summary>API reference</summary>
 > 
 > The data from the closest [Theme] instance that encloses the given
 > context.
@@ -148,7 +148,8 @@ In this experiment, you will learn how to:
 > </details>
 
 ## Output
-![exp_2_b_output]()
+<video controls src="exp_6_b_output.mp4" title="Windows App"></video>
+<video controls src="exp_6_b_output_2.mp4" title="Android"></video>
 
 
 ## Conclusion
