@@ -11,35 +11,39 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Form Application')),
-        body: Column(
-          children: <Widget>[
-            Image.asset('images/3d_avatar_21.jpg', width: 100, height: 100),
-            // Custom text fields for user input
-            const CustomTextField(label: 'First Name'),
-            const CustomTextField(label: 'Last Name'),
-            const CustomTextField(label: 'Email', suffixText: '@mlritm.ac.in'),
-            const CustomTextField(
-              prefixText: '+91 ',
-              label: 'Phone Number',
-              keyboardType: TextInputType.phone,
-              maxLength: 10,
+        body: SafeArea(
+          child: SingleChildScrollView(
+            child: Column(
+              children: <Widget>[
+                Image.asset('images/3d_avatar_21.jpg', width: 100, height: 100),
+                const CustomTextField(label: 'First Name'),
+                const CustomTextField(label: 'Last Name'),
+                const CustomTextField(
+                    label: 'Email', suffixText: '@mlritm.ac.in'),
+                const CustomTextField(
+                  prefixText: '+91 ',
+                  label: 'Phone Number',
+                  keyboardType: TextInputType.phone,
+                  maxLength: 10
+                ),
+                const Divider(indent: 8, endIndent: 8), // Divider
+                const CustomTextField(label: 'Username'),
+                const CustomTextField(label: 'Password', obscureText: true),
+                const CustomTextField(
+                    label: 'Confirm Password', obscureText: true),
+                ElevatedButton(
+                  onPressed: () {},
+                  child: const Text('Submit'),
+                ),
+              ],
             ),
-            const Divider(indent: 8, endIndent: 8), // Divider
-            const CustomTextField(label: 'Username'),
-            const CustomTextField(label: 'Password', obscureText: true),
-            const CustomTextField(label: 'Confirm Password', obscureText: true),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('Submit'),
-            ),
-          ],
+          ),
         ),
       ),
     );
   }
 }
 
-// Custom text field widget
 class CustomTextField extends StatelessWidget {
   final String label;
   final TextInputType? keyboardType;
