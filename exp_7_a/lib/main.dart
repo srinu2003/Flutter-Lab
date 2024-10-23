@@ -15,17 +15,16 @@ class MainApp extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: <Widget>[
-                Image.asset('images/3d_avatar_21.jpg', width: 100, height: 100),
+                Image.asset('images/3d_avatar_21.png', width: 100, height: 100),
                 const CustomTextField(label: 'First Name'),
                 const CustomTextField(label: 'Last Name'),
                 const CustomTextField(
                     label: 'Email', suffixText: '@mlritm.ac.in'),
                 const CustomTextField(
-                  prefixText: '+91 ',
-                  label: 'Phone Number',
-                  keyboardType: TextInputType.phone,
-                  maxLength: 10
-                ),
+                    prefixText: '+91 ',
+                    label: 'Phone Number',
+                    keyboardType: TextInputType.phone,
+                    maxLength: 10),
                 const Divider(indent: 8, endIndent: 8), // Divider
                 const CustomTextField(label: 'Username'),
                 const CustomTextField(label: 'Password', obscureText: true),

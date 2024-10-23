@@ -19,5 +19,5 @@ flutter:
   uses-material-design: true
   assets:
     - images/android_music_bot.png
-    - images/3d_avatar_21.jpg
+    - images/3d_avatar_21.png
 
