@@ -7,9 +7,10 @@ To design a responsive UI that adapts to different screen sizes.
 
 The objective of this experiment is to create a Flutter project that demonstrates the concept of responsive UI design. The UI should adjust its layout and appearance based on the screen size of the device.
 
-## Prerequisites
-- Flutter SDK installed on your machine
-- A code editor of your choice (e.g., Visual Studio Code)
+## System Requirements
+- **Flutter SDK**: version 2.0.0 or higher
+- **IDE**: Visual Studio Code (Supported) or android studio (Supported) or IntelliJ IDEA (Supported).
+- **Operating System**: Windows (7 or higher), macOS (10.12 or higher), or Linux (Ubuntu, Debian, Fedora, CentOS, or similar)
 
 ## Procedure
 

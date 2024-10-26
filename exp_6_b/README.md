@@ -8,9 +8,10 @@ In this experiment, you will learn how to:
 - Create a Flutter app with a custom theme.
 - Apply custom styles to the app.
 
-## Prerequisites
-- Flutter SDK installed on your machine
-- A code editor of your choice (e.g., Visual Studio Code)
+## System Requirements
+- **Flutter SDK**: version 2.0.0 or higher
+- **IDE**: Visual Studio Code (Supported) or android studio (Supported) or IntelliJ IDEA (Supported).
+- **Operating System**: Windows (7 or higher), macOS (10.12 or higher), or Linux (Ubuntu, Debian, Fedora, CentOS, or similar)
 
 ## Procedure
 

@@ -4,12 +4,7 @@
 To create a Flutter application that includes a form with various input fields and a submit button.
 
 ## Objective
-To understand how to create and use custom text fields in a Flutter application and handle user input format.
-
-## System Requirements
-- **Flutter SDK**: version 2.0.0 or higher
-- **IDE**: Visual Studio Code (Supported) or android studio (Supported) or IntelliJ IDEA (Supported).
-- **Operating System**: Windows (7 or higher), macOS (10.12 or higher), or Linux (Ubuntu, Debian, Fedora, CentOS, or similar)
+To understand how to create and use custom text fields in a Flutter application and handle user input.
 
 ## Procedure
 

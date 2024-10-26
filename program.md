@@ -5,9 +5,11 @@
 ## Objective
 
 
-## Prerequisites
-- Flutter SDK installed on your machine
-- A code editor of your choice (e.g., Visual Studio Code)
+## System Requirements
+- **Flutter SDK**: version 2.0.0 or higher
+- **Dart SDK**: version 2.12.0 or higher
+- **IDE**: Visual Studio Code (latest version) or android studio (latest version)
+- **Operating System**: Windows (7 or higher), macOS (10.12 or higher), or Linux (Ubuntu, Debian, Fedora, CentOS, or similar)
 
 ## Procedure
 
@@ -47,5 +49,4 @@
 
 
 ## References
-- [Flutter Layout](https://docs.flutter.dev/ui/layout)
-- [Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+- 
