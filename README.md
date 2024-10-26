@@ -1,6 +1,6 @@
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![Flutter](https://img.shields.io/badge/Flutter-3.0-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5-blue)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 # `2250585`: Skill Development Course (UI DESIGN-FLUTTER)
 B.Tech. III Year I Sem.
