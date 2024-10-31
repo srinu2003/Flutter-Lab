@@ -12,10 +12,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Form Application')),
-        body: const SafeArea(
-          child: SingleChildScrollView(
-            child: RegisterForm(),
-          ),
+        body: const SingleChildScrollView(
+          // SafeArea widget to avoid UI elements from being hidden by the device's notch, etc.
+          child: RegisterForm(),
         ),
       ),
     );
@@ -30,38 +29,39 @@ class RegisterForm extends StatefulWidget {
 }
 
 class _RegisterFormState extends State<RegisterForm> {
-  final List<TextEditingController> controllers = List.generate(
-    7,
-    (_) => TextEditingController(),
-  );
-
-  TextEditingController get firstNameController => controllers[0];
-  TextEditingController get lastNameController => controllers[1];
-  TextEditingController get emailController => controllers[2];
-  TextEditingController get phoneController => controllers[3];
-  TextEditingController get usernameController => controllers[4];
-  TextEditingController get passwordController => controllers[5];
-  TextEditingController get confirmPasswordController => controllers[6];
+  // About Controllers: https://api.flutter.dev/flutter/widgets/TextEditingController-class.html
+  final _firstNameController = TextEditingController();
+  final _lastNameController = TextEditingController();
+  final _emailController = TextEditingController();
+  final _phoneController = TextEditingController();
+  final _usernameController = TextEditingController();
+  final _passwordController = TextEditingController();
+  final _confirmPasswordController = TextEditingController();
 
   @override
   void dispose() {
-    for (var controller in controllers) {
-      controller.dispose();
-    }
+    _firstNameController.dispose();
+    _lastNameController.dispose();
+    _emailController.dispose();
+    _phoneController.dispose();
+    _usernameController.dispose();
+    _passwordController.dispose();
+    _confirmPasswordController.dispose();
     super.dispose();
   }
 
-  void handleSubmit() {
+  void _handleSubmit() {
     if (kDebugMode) {
       print('''
-
-      First Name: ${firstNameController.text}, 
-      Last Name: ${lastNameController.text}, 
-      Email: ${emailController.text}, 
-      Phone Number: ${phoneController.text}, 
-      Username: ${usernameController.text}, 
-      Password: ${passwordController.text}, 
-      Confirm Password: ${confirmPasswordController.text}''');
+    Form Values:
+    First Name: ${_firstNameController.text}
+    Last Name: ${_lastNameController.text}
+    Email: ${_emailController.text}@mlritm.ac.in
+    Phone: +91 ${_phoneController.text}
+    Username: ${_usernameController.text}
+    Password: ${_passwordController.text}
+    Confirm Password: ${_confirmPasswordController.text}
+    ''');
     }
   }
 
@@ -70,73 +70,117 @@ class _RegisterFormState extends State<RegisterForm> {
     return Column(
       children: <Widget>[
         Image.asset('images/3d_avatar_21.png', width: 100, height: 100),
-        CustomTextField(controller: firstNameController, label: 'First Name'),
-        CustomTextField(controller: lastNameController, label: 'Last Name'),
+        CustomTextField(controller: _firstNameController, label: 'First Name'),
+        CustomTextField(controller: _lastNameController, label: 'Last Name'),
         CustomTextField(
-            controller: emailController,
-            label: 'Email',
+            controller: _emailController,
+            label: 'Email ID',
             suffixText: '@mlritm.ac.in'),
         CustomTextField(
-          controller: phoneController,
+          controller: _phoneController,
           prefixText: '+91 ',
-          label: 'Phone Number',
+          label: 'Mobile Number',
           keyboardType: TextInputType.phone,
           maxLength: 10,
+          inputFormatters: [
+            FilteringTextInputFormatter.allow(RegExp(r'[0-9*]')),
+            LengthLimitingTextInputFormatter(10)
+          ],
         ),
-        const Divider(indent: 8, endIndent: 8), // Divider
-        CustomTextField(controller: usernameController, label: 'Username'),
+        const Divider(indent: 8, endIndent: 8),
+        CustomTextField(controller: _usernameController, label: 'Username'),
         CustomTextField(
-            controller: passwordController,
+            controller: _passwordController,
             label: 'Password',
-            obscureText: true),
+            obscureText: true,
+            passwordVisibilityToggle: false),
         CustomTextField(
-            controller: confirmPasswordController,
+            controller: _confirmPasswordController,
             label: 'Confirm Password',
-            obscureText: true),
-        ElevatedButton(
-          onPressed: handleSubmit,
-          child: const Text('Submit'),
+            obscureText: true,
+            passwordVisibilityToggle: true),
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              FilledButton.icon(
+                onPressed: _handleSubmit,
+                icon: const Icon(Icons.login),
+                label: const Text('Register'),
+              ),
+            ],
+          ),
         ),
       ],
     );
   }
 }
 
-class CustomTextField extends StatelessWidget {
-  final TextEditingController controller;
+class CustomTextField extends StatefulWidget {
   final String label;
+  final TextEditingController? controller; // Add controller
   final TextInputType? keyboardType;
   final bool obscureText;
   final String? prefixText, suffixText;
   final int? maxLength;
+  final List<TextInputFormatter>? inputFormatters;
+  final bool passwordVisibilityToggle;
 
   const CustomTextField({
     super.key,
-    required this.controller,
     required this.label,
+    this.controller, // Add controller
     this.keyboardType,
     this.suffixText,
     this.prefixText,
     this.maxLength,
     this.obscureText = false,
+    this.passwordVisibilityToggle = false,
+    this.inputFormatters,
   });
+
+  @override
+  State<CustomTextField> createState() => _CustomTextFieldState();
+}
+
+class _CustomTextFieldState extends State<CustomTextField> {
+  bool _obscureText = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _obscureText = widget.obscureText;
+  }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
       child: TextFormField(
-        controller: controller,
-        keyboardType: keyboardType,
-        obscureText: obscureText,
-        inputFormatters: maxLength != null
-            ? [LengthLimitingTextInputFormatter(maxLength)]
-            : null,
+        controller: widget.controller, // Add controller
+        keyboardType: widget.keyboardType,
+        obscureText: _obscureText,
+        inputFormatters: widget.inputFormatters,
         decoration: InputDecoration(
           border: const OutlineInputBorder(),
-          labelText: label,
-          suffixText: suffixText,
-          prefixText: prefixText,
+          labelText: widget.label,
+          suffixText: widget.suffixText,
+          prefixText: widget.prefixText,
+          suffixIcon: widget.obscureText && widget.passwordVisibilityToggle
+              ? IconButton(
+                  icon: Icon(
+                    _obscureText
+                        ? Icons.visibility_outlined
+                        : Icons.visibility_off,
+                  ),
+                  onPressed: () {
+                    setState(() {
+                      _obscureText = !_obscureText;
+                    });
+                  },
+                )
+              : null,
         ),
       ),
     );

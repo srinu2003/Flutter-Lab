@@ -59,7 +59,7 @@ To understand how to create and use custom text fields in a Flutter application 
                 const CustomTextField(label: 'Confirm Password', obscureText: true),
                 ElevatedButton(
                   onPressed: () {},
-                  child: const Text('Submit'),
+                  child: const Text('Register'),
                 ),
               ],
             ),
@@ -145,3 +145,6 @@ By following the above steps, you have successfully created a Flutter applicatio
 - [Flutter - Image.asset](https://api.flutter.dev/flutter/widgets/Image/Image.asset.html)
 - [Flutter - Image class](https://api.flutter.dev/flutter/widgets/Image-class.html)
 - [Flutter - LengthLimitingTextInputFormatter](https://api.flutter.dev/flutter/services/LengthLimitingTextInputFormatter-class.html)
+- [Flutter - FilteringTextInputFormatter](https://api.flutter.dev/flutter/services/FilteringTextInputFormatter-class.html)
+- [Flutter - TextInputType](https://api.flutter.dev/flutter/services/TextInputType-class.html)
+- [Flutter - Controller](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html)
