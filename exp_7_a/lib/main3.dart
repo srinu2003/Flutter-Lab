@@ -12,9 +12,11 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Form Application')),
-        body: const SingleChildScrollView(
-          // SafeArea widget to avoid UI elements from being hidden by the device's notch, etc.
-          child: RegisterForm(),
+        body: const SafeArea(
+          child: SingleChildScrollView(
+            // SafeArea widget to avoid UI elements from being hidden by the device's notch, etc.
+            child: RegisterForm(),
+          ),
         ),
       ),
     );
@@ -56,7 +58,7 @@ class _RegisterFormState extends State<RegisterForm> {
   void _handleSubmit() {
     if (kDebugMode) {
       print('''
-    Form Values:
+
     First Name: ${_firstNameController.text}
     Last Name: ${_lastNameController.text}
     Email: ${_emailController.text}@mlritm.ac.in
@@ -65,6 +67,12 @@ class _RegisterFormState extends State<RegisterForm> {
     Password: ${_passwordController.text}
     Confirm Password: ${_confirmPasswordController.text}
     ''');
+    }
+  }
+
+  void _handleClear() {
+    for (var controller in controllers) {
+      controller.clear();
     }
   }
 
@@ -107,6 +115,11 @@ class _RegisterFormState extends State<RegisterForm> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: TextButton(
+                    onPressed: _handleClear, child: const Text('Clear')),
+              ),
               FilledButton.icon(
                 onPressed: _handleSubmit,
                 icon: const Icon(Icons.login),

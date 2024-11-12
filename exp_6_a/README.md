@@ -6,7 +6,6 @@ Create custom widgets for specific UI elements.
 ## Objective
 To understand how to create custom widgets for specific UI elements.
 
-
 ## System Requirements
 - **Flutter SDK**: version 2.0.0 or higher
 - **IDE**: Visual Studio Code (Supported) or android studio (Supported) or IntelliJ IDEA (Supported).
