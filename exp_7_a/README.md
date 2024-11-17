@@ -132,7 +132,7 @@ To understand how to create and use custom text fields in a Flutter application 
     - Enter `q` to quit the app.
 
 ## Output
-![exp_7_a_output](exp_7_a_output.mkv)
+<video controls src="exp_7_a_output.mp4" title="Form Application"></video>
 
 ### Extra Practice
 
