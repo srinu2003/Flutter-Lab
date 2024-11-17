@@ -134,6 +134,9 @@ To understand how to create and use custom text fields in a Flutter application 
 ## Output
 <video controls src="exp_7_a_output.mp4" title="Form Application"></video>
 
+https://github.com/user-attachments/assets/2caf9952-4666-41d7-8fee-d36101af34bc
+
+
 ### Extra Practice
 
 1. Add a constraint validator to the `CustomTextField` widget to validate the user input. For example, validate the phone number field to accept only 10 digits.
