@@ -132,7 +132,7 @@ To understand how to create and use custom text fields in a Flutter application 
     - Enter `q` to quit the app.
 
 ## Output
-![exp_2_b_output](images/exp_2_b_output.png)
+![exp_7_a_output](exp_7_a_output.mkv)
 
 ### Extra Practice
 
