@@ -44,9 +44,9 @@ List of Experiments:
 The Student will be able to:
 
 * Implements Flutter Widgets und Layouts
-* Create Responsive UI Desigs and with Navigation in Flutter
-* Create custom widgets for specifie Ul elements and alsis Apply styling using themes and custom styles
-* Design a form with various input fields, along with validation and erros hanalling
+* Create Responsive UI Designs and with Navigation in Flutter
+* Create custom widgets for specific Ul elements and also Apply styling using themes and custom styles
+* Design a form with various input fields, along with validation and errors halting
 * Fetch data and write code fur unit Test for Ut components and also animation
 
 > [!NOTE] 
@@ -58,7 +58,7 @@ The Student will be able to:
 
 > [!TIP]
 > You can refer to the following resources for additional learning:
-> - Flutter CODELABS from [Google](https://flutter.dev/docs/codelabs)
+> - Flutter CODE LABS from [Google](https://flutter.dev/docs/codelabs)
 > - [Flutter Documentation](https://docs.flutter.dev/get-started/learn-more)
 > - [Dart Documentation](https://dart.dev/guides)
 > - [Learn Flutter](https://flutter.dev/learn)

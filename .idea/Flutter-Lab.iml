@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_2_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_3_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_4_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_5_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_6_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/exp_7_b/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
