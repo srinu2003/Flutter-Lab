@@ -135,6 +135,10 @@ To understand the concept of form validation and error handling in Flutter.
 <video controls src="exp_7_b_output.mp4" title="Form Validation"></video>
 
 
+https://github.com/user-attachments/assets/88920500-ded9-43f4-af9e-432a8c4eaf81
+
+
+
 ## Conclusion
 In this experiment, we learned how to perform form validation and error handling in a Flutter app. We created a simple form that takes the user's name and email address as input and validates the input data. If the input data is valid, a success message is displayed; otherwise, an error message is displayed.
 
