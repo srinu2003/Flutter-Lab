@@ -132,7 +132,7 @@ To understand the concept of form validation and error handling in Flutter.
 
 
 ## Output
-![exp_2_b_output]()
+<video controls src="exp_7_b_output.mp4" title="Form Validation"></video>
 
 
 ## Conclusion
