@@ -102,6 +102,11 @@ To understand how to add animations to UI elements using Flutter's animation fra
 
 
 ## Output
+
+https://github.com/user-attachments/assets/c7183276-eaad-4573-93c5-6e9d6141ed5b
+
+
+
 ![exp_8_a_output]()
 
 ### Just for fun
