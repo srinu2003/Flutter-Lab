@@ -19,17 +19,20 @@ List of Experiments:
     
 3.  1. [`Program`](/exp_3_a/README.md) - Design a responsive UI that adapts to different screen sizes.
     2. [`Program`](/exp_3_b/README.md) - Implement media queries and breakpoints for responsiveness.
+
 4.  1. [`Program`](/exp_4_a/README.md) - Set up navigation between different screens using Navigator.
     2. [`Program`](/exp_4_b/README.md) - Implement navigation with named routes.
 
 5.  1. [`Theory`](/exp_5_a/README.md) - Learn about stateful and stateless widgets.
     2. [`Program`](/exp_5_b/README.md) - Implement state management using setState and Provider.
----
+
 6.  1. [`Program`](/exp_6_a/README.md) - Create custom widgets for specific UI elements.
     2. [`Program`](/exp_6_b/README.md) - Apply styling using themes and custom styles.
 
 7.  1. [`Program`](/exp_7_a/README.md) - Design a form with various input fields.
     2. [`Program`](/exp_7_b/README.md) - Implement form validation and error handling.
+
+---
 
 8.  1. [`Program`](/exp_8_a/README.md) - Add animations to UI elements using Flutter's animation framework.
     2. [`Program`](/exp_8_b/README.md) - Experiment with different types of animations. (fade, slide, etc.)

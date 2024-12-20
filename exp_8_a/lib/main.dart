@@ -40,8 +40,8 @@ class _MainAppState extends State<MainApp> {
                   ),
                   duration: const Duration(seconds: 1),
                   curve: Curves.easeInOutBack,
-                  width: _isBig ? 250 : 100,
-                  height: _isBig ? 500 : 100,
+                  width: _isBig ? 300 : 100,
+                  height: _isBig ? 600 : 100,
                   alignment: Alignment.center,
                   child: const Text(
                     'Box',

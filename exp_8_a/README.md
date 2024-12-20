@@ -105,9 +105,7 @@ To understand how to add animations to UI elements using Flutter's animation fra
 
 https://github.com/user-attachments/assets/c7183276-eaad-4573-93c5-6e9d6141ed5b
 
-
-
-![exp_8_a_output]()
+<video controls src="exp_8_a_output.mp4" title="Animated Box"></video>
 
 ### Just for fun
 - Try changing the duration of the animation and see how it affects the animation.
@@ -120,8 +118,8 @@ Flutter provides three types of animations:
 - **Explicit animations**: These animations are controlled by an AnimationController and are used to animate properties that are not built into the widgets.
 - **Custom animations**: These animations are created using the Animation class and are used to create complex animations that are not possible with the built-in animations.
 
-The below is a rought classification of Flutter animations:
-![Flutter Animation Classification](<Flutter Animations.jpg>)
+The below is a rough classification of Flutter animations:
+![Flutter Animation Classification](<Flutter%20Animations.jpg>)
 
 ### Choosing the Right Animation
 - **Implicit**: Best for simple transitions where you want to animate from one state to another without manual control.
@@ -191,7 +189,7 @@ class _AnimatedTextState extends State<AnimatedText>
     return FadeTransition(
       opacity: _animation,
       child: const Text(
-        'I disapper and reappear!',
+        'I disappear and reappear!',
         style: TextStyle(
           fontSize: 24.0,
           fontWeight: FontWeight.bold,
