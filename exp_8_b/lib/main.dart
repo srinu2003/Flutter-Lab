@@ -124,8 +124,8 @@ class _AnimationDemoState extends State<AnimationDemo>
                 setState(() {
                   _sliding = value;
                   _sliding
-                      ? _slideController.forward()
-                      : _slideController.reverse();
+                      ? _slideController.repeat(reverse: true)
+                      : _slideController.stop();
                 });
               },
             ),
