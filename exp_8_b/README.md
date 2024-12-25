@@ -1,4 +1,4 @@
-# Experiment 2 - Part B:  **Different types of animations**
+# Experiment 8 - Part B:  **Different types of animations**
 
 ## Aim
 To experiment with different types of animations in Flutter.
@@ -205,6 +205,10 @@ To understand the different types of animations in Flutter and how to implement 
 
 ## Output
 <video controls src="exp_8_b_output.mp4" title="FooTransition Animations"></video>
+
+
+https://github.com/user-attachments/assets/e53f0d23-667f-40f8-a4ec-9a218fbf069f
+
 
 ## Conclusion
 In this experiment, we learned how to implement different types of animations in a Flutter app. We used the `FadeTransition`, `SlideTransition`, `RotationTransition`, and `ScaleTransition` widgets to create fade, slide, rotate, and scale animations, respectively. We also used the `AnimationController` class to control the animations and the `Tween` class to define the animation values. By combining these widgets and classes, we were able to create a simple animation demo app that demonstrates the use of different types of animations in Flutter.
