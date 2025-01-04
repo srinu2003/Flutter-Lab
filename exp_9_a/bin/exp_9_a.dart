@@ -1,5 +1,5 @@
 // Utilizing GitHub API service from exp_9_a
-import 'package:exp_9_a/exp_9_a.dart' as git_hub_api;
+import 'package:exp_9_a/git_hub_api.dart' as git_hub_api;
 import 'dart:io';
 
 void main(List<String> arguments) async {
@@ -12,7 +12,7 @@ void main(List<String> arguments) async {
 
   if (username != null && username.isNotEmpty) {
     try {
-      print('Fetcsitories for user: $username');
+      print('Fetching repositories for user: $username');
       List<dynamic> repos = await git_hub_api.fetchRepos(username);
       // Sort by 'updated_at' in descending order
       repos.sort(
