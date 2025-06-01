@@ -16,13 +16,13 @@ To understand the concept of form validation and error handling in Flutter.
 
 1. Create a new Flutter project by running the following command in your terminal:
     ```cmd
-    flutter create my_flutter_app
+    flutter create exp_7_b
     ```
-    The command creates a Flutter project directory called `my_flutter_app` that contains a simple demo app that uses [Material Components](https://m3.material.io/components).
+    The command creates a Flutter project directory called `exp_7_b` that contains a simple demo app that uses [Material Components](https://m3.material.io/components).
 
 2. Change to the Flutter project directory.
     ```cmd
-    cd my_flutter_app
+    cd exp_7_b
     ```
 3. Open the `lib/main.dart` file in your Flutter project.
 
