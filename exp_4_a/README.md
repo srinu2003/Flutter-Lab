@@ -1,4 +1,5 @@
-# Experiment 4 - Part A:  **Navigating Screens**
+# Experiment 4 - Part A:  **Navigating Screens*
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_4_a.apk)
 
 ## Aim
 Set up navigation between different screens using Navigator

@@ -20,16 +20,34 @@ $experiments = @(
 )
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Definition
+$buildOutputDir = Join-Path $root 'build-output'
+if (-not (Test-Path $buildOutputDir)) {
+    New-Item -ItemType Directory -Path $buildOutputDir | Out-Null
+}
 
 foreach ($exp in $experiments) {
     $path = Join-Path $root $exp
     if (Test-Path (Join-Path $path 'pubspec.yaml')) {
-        Write-Host "\nBuilding APK for $exp..." -ForegroundColor Cyan
+        Write-Host "`nBuilding APK for $exp..." -ForegroundColor Cyan
         Push-Location $path
         try {
+            flutter clean | Out-Null
+            flutter pub get --no-example | Out-Null
+            # flutter build apk --pub
+
+            # # Copy APK to build-output/<project_name>.apk
+            # $apkSource = Join-Path $path 'build\app\outputs\flutter-apk\app-release.apk'
+            # $apkDest = Join-Path $buildOutputDir "$exp.apk"
+            # if (Test-Path $apkSource) {
+            #     Copy-Item $apkSource $apkDest -Force
+            #     Write-Host "APK copied to $apkDest" -ForegroundColor Green
+            # } else {
+            #     Write-Host "APK not found for $exp" -ForegroundColor Yellow
+            # }
             # flutter clean | Out-Null
-            # flutter pub get | Out-Null
-            flutter build apk --pub
+            # flutter pub get --no-example | Out-Null
+
+
         } catch {
             Write-Host ("Failed to build {0}: {1}" -f $exp, $_) -ForegroundColor Red
         }
@@ -39,4 +57,4 @@ foreach ($exp in $experiments) {
     }
 }
 
-Write-Host "\nAll builds attempted. Check above for any errors." -ForegroundColor Green
+Write-Host "`nAll builds attempted. Check above for any errors." -ForegroundColor Green

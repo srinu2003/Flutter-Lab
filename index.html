@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flutter Lab Experiments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2250585: Skill Development Course (UI DESIGN-FLUTTER) Lab Experiments">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body {
+            font-family: 'Roboto', 'Montserrat', Arial, sans-serif;
+            background: #181a1b;
+            color: #f5f5f5;
+        }
+
+        header {
+            background: #232526;
+            padding: 2rem 0 1.5rem 0;
+            text-align: center;
+        }
+
+        .flutter-logo {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 0.5rem;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+        }
+
+        h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 2.2rem;
+            margin: 0.2rem 0 0.3rem 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.5px;
+            color: #e0e0e0;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #fff;
+            color: #232526;
+            font-weight: 700;
+            padding: 0.2em 0.8em;
+            margin: 0 0.2em;
+            font-size: 0.95em;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+            letter-spacing: 0.5px;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 2.5rem auto 0 auto;
+            background: #232526;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+            padding: 2.5rem 2.2rem 1.5rem 2.2rem;
+        }
+
+        h2 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+
+        .exp-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2.2rem 0;
+        }
+
+        .exp-list li {
+            background: #181a1b;
+            margin-bottom: 1.1rem;
+            padding: 1.1rem 1.2rem 0.8rem 1.2rem;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.13);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.2rem;
+        }
+
+        .exp-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            flex: 1;
+        }
+
+        .exp-title {
+            font-size: 1.13rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.2rem;
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+
+        .apk-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: #181a1b !important;
+            border: none;
+            font-size: 1em;
+            font-weight: 500;
+            min-width: 48px;
+            min-height: 48px;
+            text-decoration: none;
+        }
+
+        .apk-btn:hover {
+            background: #e0e0e0;
+            color: #181a1b;
+            text-decoration: none;
+        }
+
+        .apk-btn .material-symbols-outlined {
+            font-size: 2rem;
+            margin: 0;
+            color: #181a1b;
+        }
+
+        .apk-btn-label {
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            color: #181a1b;
+            margin-top: -0.2em;
+        }
+
+        section {
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            background: #181a1b;
+            padding: 1.2rem 1.5rem 1rem 1.5rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+        }
+
+        section h3 {
+            color: #fff;
+            font-size: 1.15rem;
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0.7rem;
+        }
+
+        section ul {
+            margin: 0;
+            padding-left: 1.2em;
+        }
+
+        section li {
+            margin-bottom: 0.5em;
+            font-size: 1em;
+            color: #e0e0e0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 2.5rem;
+            color: #bdbdbd;
+            font-size: 0.98em;
+        }
+
+        .footer img {
+            margin-top: 0.5em;
+            margin-bottom: 0.2em;
+        }
+
+        @media (max-width: 800px) {
+            main {
+                max-width: 98vw;
+                padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+            }
+
+            .exp-list li {
+                padding: 0.9rem 0.7rem 0.7rem 0.7rem;
+            }
+
+            section {
+                padding: 0.8rem 0.7rem 0.7rem 0.7rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>2250585: Skill Development Course</h1>
+        <div class="subtitle">UI DESIGN-FLUTTER | B.Tech. III Year I Sem.</div>
+    </header>
+    <main>
+        <h2>Lab Experiments</h2>
+        <ol class="exp-list">
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">1.1 Install Flutter and Dart SDK</div>
+                </div>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">1.2 Dart Language Basics</div>
+                </div>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">2.1 Explore Flutter widgets (Text, Image, Container, etc.)</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_2_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">2.2 Layout structures: Row, Column, Stack</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_2_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">3.1 Responsive UI</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_3_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">3.2 Media queries and breakpoints</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_3_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">4.1 Navigation between screens</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_4_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">4.2 Navigation with named routes</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_4_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">5.1 Stateful and stateless widgets</div>
+                </div>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">5.2 State management: setState, Provider</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_5_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">6.1 Custom widgets</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_6_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">6.2 Styling with themes</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_6_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">7.1 Forms and input fields</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_7_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">7.2 Form validation</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_7_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">8.1 Animations</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_8_a.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">8.2 Animation types: fade, slide, etc.</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_8_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">9.2 Display fetched data</div>
+                </div>
+                <a class="apk-btn" href="build-output/exp_9_b.apk" download>
+                    <span class="material-symbols-outlined">download</span>
+                    <span class="apk-btn-label">apk</span>
+                </a>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">10.1 Unit tests for UI</div>
+                </div>
+            </li>
+            <li>
+                <div class="exp-info">
+                    <div class="exp-title">10.2 Debugging tools</div>
+                </div>
+            </li>
+        </ol>
+        <section>
+            <h3>Resources</h3>
+            <ul style="display:inline-block;text-align:left; color: #fff;">
+                <li><a href="https://docs.flutter.dev/get-started/learn-more" target="_blank" style="color: #fff;">Flutter Documentation</a>
+                </li>
+                <li><a href="https://dart.dev/guides" target="_blank" style="color: #fff;">Dart Documentation</a></li>
+                <li><a href="https://flutter.dev/learn" target="_blank" style="color: #fff;">Learn Flutter</a></li>
+                <li><a href="https://material.io/design" target="_blank" style="color: #fff;">Material3 Design</a></li>
+            </ul>
+        </section>
+        <div class="footer" style="color: #fff;">
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0;vertical-align:middle;"
+                src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" />
+            </a>
+            <br>
+            This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #fff;">Creative Commons
+                Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

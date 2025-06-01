@@ -1,4 +1,6 @@
 # Experiment 3 - Part B:  **MediaQuery for responsive layout**
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_3_b.apk)
+
 ## Aim
 
 The aim of this experiment is to implement media queries and breakpoints in a Flutter project to achieve responsiveness.

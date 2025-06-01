@@ -1,4 +1,5 @@
 # Experiment 2 - Part B: **Flutter Layout Widgets**
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_2_b.apk)
 
 ## Aim
 To implement different layout structures using Row, Column, and Stack widgets in Flutter.

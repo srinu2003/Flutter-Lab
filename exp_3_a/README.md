@@ -1,4 +1,6 @@
 # Experiment 3 - Part A:  **Responsive UI**
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_3_a.apk)
+
 ## Aim
 
 To design a responsive UI that adapts to different screen sizes.

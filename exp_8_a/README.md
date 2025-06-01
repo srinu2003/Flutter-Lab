@@ -1,4 +1,5 @@
 # Experiment 8 - Part A: **Add animations to UI elements using Flutter's animation framework**
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_8_a.apk)
 
 ## Aim
 To add animations to UI elements using Flutter's animation framework.

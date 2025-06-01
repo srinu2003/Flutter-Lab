@@ -1,4 +1,5 @@
 # Experiment 2 - Part A: **Exploring Flutter Widgets**
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_2_a.apk)
 
 ## Aim
 To explore various Flutter widgets such as `Text`, `Image`, and `Container`.
