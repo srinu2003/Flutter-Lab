@@ -32,8 +32,6 @@ List of Experiments:
 7.  1. [`Program`](/exp_7_a/README.md) - Design a form with various input fields.
     2. [`Program`](/exp_7_b/README.md) - Implement form validation and error handling.
 
----
-
 8.  1. [`Program`](/exp_8_a/README.md) - Add animations to UI elements using Flutter's animation framework.
     2. [`Program`](/exp_8_b/README.md) - Experiment with different types of animations. (fade, slide, etc.)
 
