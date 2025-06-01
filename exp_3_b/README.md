@@ -1,5 +1,5 @@
 # Experiment 3 - Part B:  **MediaQuery for responsive layout**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_3_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_3_b.apk)
 
 ## Aim
 

@@ -1,5 +1,5 @@
 # Experiment 8 - Part B:  **Different types of animations**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_8_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_8_b.apk)
 
 ## Aim
 To experiment with different types of animations in Flutter.

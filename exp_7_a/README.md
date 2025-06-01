@@ -1,5 +1,5 @@
 # Experiment 7 - Part A:  **Form Application**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_7_a.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_7_a.apk)
 
 ## Aim
 To create a Flutter application that includes a form with various input fields and a submit button.

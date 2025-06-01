@@ -1,5 +1,5 @@
 # Experiment 4 - Part B:  **Named Routes**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_4_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_4_b.apk)
 
 ## Aim
 Implement navigation with named routes in a Flutter app.

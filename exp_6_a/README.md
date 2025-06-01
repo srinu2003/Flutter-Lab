@@ -1,5 +1,5 @@
 # Experiment 6 - Part A:  **Custom widgets for specific UI**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_6_a.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_6_a.apk)
 
 ## Aim
 Create custom widgets for specific UI elements.

@@ -1,5 +1,5 @@
 # Experiment 9 - Part B: **Display the fetched data in a meaningful way in the UI**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_9_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_9_b.apk)
 
 ## Aim
 To fetch data from an API and display it in a meaningful way using Flutter widgets.

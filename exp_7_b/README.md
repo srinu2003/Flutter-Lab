@@ -1,5 +1,5 @@
 # Experiment 7 - Part B:  **From VAlidation**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_7_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_7_b.apk)
 
 ## Aim
 To design and implement a Flutter app that performs form validation and error handling.

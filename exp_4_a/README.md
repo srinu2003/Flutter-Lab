@@ -1,5 +1,5 @@
 # Experiment 4 - Part A:  **Navigating Screens*
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_4_a.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_4_a.apk)
 
 ## Aim
 Set up navigation between different screens using Navigator

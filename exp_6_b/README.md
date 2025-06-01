@@ -1,5 +1,5 @@
 # Experiment 6 - Part B:  **Themes and Custom Styles**
-[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](#file:exp_6_b.apk)
+[![Try APK](https://img.shields.io/badge/Try%20APK-Download-blue)](https://srinu2003.github.io/Flutter-Lab/build-output/exp_6_b.apk)
 
 ## Aim
 To understand how to apply themes and custom styles to a Flutter app.
