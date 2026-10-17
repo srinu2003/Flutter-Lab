@@ -81,13 +81,13 @@ The objective of this experiment is to understand how to use media queries and b
           ),
           body: () {
             // immediately-invoked function expression (IIFE)
-            if (screenWidth < 600) {    <-- breakpoint
+            if (screenWidth < 600) {        // <-- breakpoint
               return buildCompactScreen();
-            } else if (screenWidth < 840) { <-- breakpoint
+            } else if (screenWidth < 840) { // <-- breakpoint
               return buildMediumScreen();
-            } else if (screenWidth < 1200) { <-- breakpoint
+            } else if (screenWidth < 1200) {// <-- breakpoint
               return buildExpandedScreen();
-            } else {                        <-- breakpoint
+            } else {                        // <-- breakpoint
               return buildLargeScreen();
             }
           }(),
